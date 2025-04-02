@@ -17,23 +17,24 @@ class SplashPage extends StatelessWidget {
           Navigator.of(context).pushReplacementNamed(AppRoutes.login);
         }
       },
-      child: Scaffold(
+      child: const Scaffold(
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(
+              Icon(
                 Icons.videocam,
                 size: 100,
               ),
-              const SizedBox(height: 24),
-              const Text(
+              SizedBox(height: 24),
+              Text(
                 'Selfie Video App',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
               ),
-              const SizedBox(height: 48),
+              SizedBox(height: 48),
               SpinKitPulse(
                 size: 50.0,
+                color: Colors.white,
               ),
             ],
           ),

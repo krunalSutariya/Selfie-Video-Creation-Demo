@@ -64,7 +64,7 @@ class _DashboardPageState extends State<DashboardPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const SizedBox.shrink(),
+        // leading: const SizedBox.shrink(),
         title: const Text('My Videos'),
         actions: [
           IconButton(

@@ -140,7 +140,9 @@ class VideoDetailPage extends StatelessWidget {
                                 AppRoutes.videoEdit,
                                 arguments: {
                                   'videoPath': video.path,
-                                  'onVideoSaved': (String editedVideoPath, String thumbnailPath) {},
+                                  'onVideoSaved': (String editedVideoPath, String thumbnailPath) {
+                                    Navigator.of(context).pop();
+                                  },
                                 },
                               );
                             },
