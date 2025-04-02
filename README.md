@@ -130,13 +130,14 @@ lib/
 This project uses Bloc for state management.
 
 ## Auth Mock Data
-
+```
 lib/
 ├── data/
 │   ├── datasources/
 │   │   └── remote/
 │   │       ├── auth_remote_datasource.dart
 
+```
 ## Platform Configuration
 
 ### Android
